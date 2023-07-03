@@ -9,7 +9,7 @@
 		"prod": "npm i && npm run build && npm start",
 		"deploy": "npm run fetch && npm run prod",
 		"fetch": "git fetch --all && git reset --hard origin/master",
-		"dev": "vite dev",
+		"dev": "vite dev --host",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
